@@ -1,0 +1,21 @@
+#location{
+    padding-block: 50px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+@media (max-width:767px) {
+    
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+}

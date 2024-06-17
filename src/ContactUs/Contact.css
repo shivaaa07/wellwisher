@@ -1,0 +1,21 @@
+
+
+
+.fromWrapper{
+    width: 50%;
+}
+
+.bg-img{
+    background-image: url("/public/int4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:767px) {
+    .fromWrapper{
+        width: 100%;
+    }
+    .bg-img{
+        padding-left: 15px !important;
+    }
+}

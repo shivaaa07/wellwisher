@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f3f3f3;
+}
+
+.leftposition {
+  position : fixed;
+  left : 10px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.rightposition{
+  position : fixed;
+  right : 10px;
+  bottom: 20px;
+  z-index: 9999
+}

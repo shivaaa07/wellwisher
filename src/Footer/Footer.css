@@ -1,0 +1,23 @@
+
+.qr-wrapper{
+    /* width: 150px; */
+    text-align: center;
+}
+
+.qr-wrapper img{
+    width: 100px;
+}
+
+.divider-line{
+    width: 200px;
+    height: 2px;
+    background-color: #414041;
+    margin: 0 auto;
+}
+
+@media (max-width:767px) {
+    .qr-wrapper img{
+        width: 150px;
+        /* text-align: center; */
+    }
+}

@@ -1,0 +1,15 @@
+#aboutUs{
+    padding-block: 50px;
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: ease all 0.5s;
+}

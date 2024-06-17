@@ -1,0 +1,38 @@
+#configuration{
+    background-image: url("/public/int4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 50px;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    background-color: #00000069;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg{
+    background-color: #5f0c0c;
+}
+
+.confTitle{
+    font-size: 16px;
+    color: #fff;
+    padding-block: 10px;
+}
+
+.border{
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+    padding-block: 10px
+}
+
+.config-wrapper{
+    position: relative;
+    /* z-index: 9999; */
+}

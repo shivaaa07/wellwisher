@@ -1,0 +1,21 @@
+/* .bg{
+} */
+.iconWrapper{
+    background: linear-gradient(47deg, #4f96c5 0%, #32b0d4 82%);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 10px;
+}
+
+.overviewIcons{
+    filter: invert(1);
+    width: 30px;
+}
+
+.iconTitle p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
