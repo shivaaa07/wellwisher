@@ -10,30 +10,30 @@ const Overview = () => {
     const data = [
        { 
             title: "18+ Ultra-Modern Amenities",
-            images: "/public/icons/7.png"
+            images: "public/images/icons/7.png"
        },
        {
             title: "Just 2 mins from NIBM Road",
-            images: "/public/icons/road.png"
+            images: "public/images/icons/road.png"
        },
        {
             title: "The Biggest Carpet Area of 825 Sq.ft.",
-            images: "/public/icons/area.png"
+            images: "public/images/icons/area.png"
        }       
     ];
 
     const secondAmenities = [
         {
             title: "Entrance lobby",
-            images: "/public/icons/hotel.png"
+            images: "public/images/icons/hotel.png"
         },
         {
             title: "Attractive Interest free EMI",
-            images: "/public/icons/signing.png"
+            images: "public/images/icons/signing.png"
         },
         {
             title: "Covered car parking",
-            images: "/public/icons/car-parking.png"
+            images: "public/images/icons/car-parking.png"
         }
     ]
 
@@ -60,7 +60,7 @@ const Overview = () => {
                     </Col>
                     <Col lg={6} className="order1">
                         <div className="img-wrapper ">
-                            <img src="./public/overview.jpg" alt="Overview" className="d-none d-sm-block d-xs-block overImg"/>
+                            <img src="public/images/overview.jpg" alt="Overview" className="d-none d-sm-block d-xs-block overImg"/>
                         </div>
                     </Col>
                 </Row>
