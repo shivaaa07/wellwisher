@@ -14,6 +14,7 @@ import { Navigation } from 'swiper/modules';
 export default function App() {
   return (
     <>
+    <section id="home">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
             <img src="./public/banner/web1.jpg" alt="Banner1" className='d-none d-sm-block'/>
@@ -24,6 +25,8 @@ export default function App() {
             <img src="./public/banner/mob2.jpg" alt="Banner" className='d-block d-sm-none'/>
         </SwiperSlide>
       </Swiper>
+
+    </section>
     </>
   );
 }

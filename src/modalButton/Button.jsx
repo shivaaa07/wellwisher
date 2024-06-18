@@ -10,7 +10,7 @@ const ModalButton = ({ btnName, btnStyle }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  console.log("Brochure Title", btnName);
+  // console.log("Brochure Title", btnName);
 
   return (
     <>

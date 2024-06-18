@@ -39,6 +39,7 @@ const Overview = () => {
 
     return (
         <>
+        <section id="overview">
             <Container>
                 <Row className="mt-5 mb-5">
                     <Col lg={6} className="order2">
@@ -64,6 +65,7 @@ const Overview = () => {
                     </Col>
                 </Row>
             </Container>
+        </section>
         </>
     )
 }

@@ -34,7 +34,7 @@ const AmenitiesGallery = () => {
 
     return (
         <>
-            <section id="AmeGallery">
+            <section id="ameGallery">
                 <Container>
                     <Row>
                         <Col md={12}>
