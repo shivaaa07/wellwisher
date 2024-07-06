@@ -13,13 +13,13 @@ const Footer = () => {
                     <Row>
                         <Col md={2}>
                             <div className="qr-wrapper">
-                                <img src="public/images/qr.jpeg" alt="QR" />
+                                <img src="images/qr.jpeg" alt="QR" />
                                 <p className="mt-2 text-light">P52100024682</p>
                             </div>
                         </Col>
                         <Col md={10} lg={8}>
                             <div className="footer-info-wrapper text-center">
-                                <img src="public/images/logo.png" alt="Footer Logo" className="w-25"/>
+                                <img src="images/logo.png" alt="Footer Logo" className="w-25"/>
                                 <div className="contact-wrapper">
                                     <p className="text-light mt-3 mb-1">For any inquiries, questions, or to register your interest, please contact us using the details below</p>
                                     <p className="text-light"><FontAwesomeIcon icon={faBuilding} /> Tyni Audyogic Wasahat, Kondhwa, Pune, Maharashtra 411048</p>

@@ -18,7 +18,7 @@ const Menu = () => {
                 <Navbar expand="lg" className="bg-dark" expanded={expanded}>
                     <Container>
                         <Navbar.Brand href="#home">
-                            <img src="public/images/logo.png" alt="Logo" className="logo"/>
+                            <img src="images/logo.png" alt="Logo" className="logo"/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : true)} />
                         <Navbar.Collapse id="basic-navbar-nav">
@@ -32,7 +32,7 @@ const Menu = () => {
                         </Nav>
                         </Navbar.Collapse>
                         <Navbar.Brand href="#home" className="d-none d-lg-block">
-                            <img src="public/images/devLogo.png" alt="Logo" className="logo"/>
+                            <img src="images/devLogo.png" alt="Logo" className="logo"/>
                         </Navbar.Brand>
                     </Container>
                 </Navbar>

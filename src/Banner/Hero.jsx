@@ -17,12 +17,12 @@ export default function App() {
     <section id="home">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-            <img src="public/images/banner/web1.jpg" alt="Banner1" className='d-none d-sm-block'/>
-            <img src="public/images/banner/mob1.jpg" alt="Banner2" className='d-block d-sm-none'/>
+            <img src="images/banner/web1.jpg" alt="Banner1" className='d-none d-sm-block'/>
+            <img src="images/banner/mob1.jpg" alt="Banner2" className='d-block d-sm-none'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src="public/images/banner/web2.jpg" alt="Banner" className='d-none d-sm-block'/>
-            <img src="public/images/banner/mob2.jpg" alt="Banner" className='d-block d-sm-none'/>
+            <img src="images/banner/web2.jpg" alt="Banner" className='d-none d-sm-block'/>
+            <img src="images/banner/mob2.jpg" alt="Banner" className='d-block d-sm-none'/>
         </SwiperSlide>
       </Swiper>
 

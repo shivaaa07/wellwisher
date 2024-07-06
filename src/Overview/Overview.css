@@ -18,14 +18,14 @@
 .img-wrapper{
     width: 100%;
     height: 100%;
-    background-image: url("/public/overview.jpg");
+    background-image: url("public/images/overview.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .divider{
-    background-image: url("/public/divider.png");
+    background-image: url("public/images/divider.png");
     background-position: center;
     background-size: contain;
     width: 260px;
